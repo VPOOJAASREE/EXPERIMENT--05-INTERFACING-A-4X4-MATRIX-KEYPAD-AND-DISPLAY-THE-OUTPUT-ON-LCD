@@ -610,8 +610,11 @@ void assert_failed(uint8_t *file, uint32_t line)
 }
 #endif /* USE_FULL_ASSERT */
 
+```
+
 
 ```
+
 lcd.h
 
 #ifndef LCD_H_
@@ -707,6 +710,7 @@ void Lcd_clear(Lcd_HandleTypeDef * lcd);
 
 
 ```
+
 
 ```
 lcd.c
